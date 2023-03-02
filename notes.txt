@@ -1,0 +1,49 @@
+Exemplo de atributo global:
+
+window.calculator = new CalcController();
+
+exemplo p/ acessar propriedades de um objeto no console:
+
+dir(document)
+
+Teste no console:
+calculator.displayCalc;
+calculator.displayCalc = 1000;
+
+return this._currentDate 
+pode ser
+return new Date()
+
+-------
+
+Testar no console:
+dt = new Date();
+dt <enter>
+dir(dt) <enter>
+
+dt.getDate()
+dt.getMonth()
+dt.getFullYear()
+
+dt.toLocaleDateString()
+dt.toLocaleDateString('pt-BR')
+
+só o mês:
+dt.toLocaleDateString('pt-BR', {month:'long'})
+dt.toLocaleDateString('pt-BR', {month:'short'})
+
+p/ hora:
+dt.toLocaleTimeString('pt-BR');
+
+----------------------
+
+Pra testar no console: 
+
+calculator.displayDate = new Date().toLocaleDateString('pt-BR')
+calculator.displayTime = new Date().toLocaleTimeString('pt-BR')
+
+parei na aula 10. -> 10:27
+
+
+
+
